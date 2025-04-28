@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_dirty_stuff:tobacco_leafs"
+    }
+  ],
+  "result": {
+    "item": "the_dirty_stuff:tobacco_leaf",
+    "count": 4
+  }
+}

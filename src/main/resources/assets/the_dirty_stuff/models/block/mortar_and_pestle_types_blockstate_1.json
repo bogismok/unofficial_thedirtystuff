@@ -1,0 +1,11 @@
+{
+  "parent": "the_dirty_stuff:custom/mortar_and_pestle",
+  "textures": {
+    "all": "the_dirty_stuff:block/smortar_and_pestle_ephedra",
+    "particle": "the_dirty_stuff:blocks/rock",
+    "0": "the_dirty_stuff:blocks/anvil",
+    "1": "the_dirty_stuff:blocks/ephedra",
+    "2": "the_dirty_stuff:blocks/rock"
+  },
+  "render_type": "solid"
+}

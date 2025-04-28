@@ -1,0 +1,9 @@
+{
+  "parent": "the_dirty_stuff:custom/workstation",
+  "textures": {
+    "all": "the_dirty_stuff:block/workstation",
+    "particle": "the_dirty_stuff:block/iron",
+    "0": "the_dirty_stuff:block/iron"
+  },
+  "render_type": "solid"
+}

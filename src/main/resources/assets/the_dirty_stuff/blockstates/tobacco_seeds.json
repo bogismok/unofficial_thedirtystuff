@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "the_dirty_stuff:block/tobacco_seeds"
+    },
+    "blockstate=1": {
+      "model": "the_dirty_stuff:block/tobacco_crop_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "the_dirty_stuff:block/tobacco_crop_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "the_dirty_stuff:block/tobacco_crop_blockstate_2"
+    },
+    "blockstate=4": {
+      "model": "the_dirty_stuff:block/tobacco_crop_blockstate_3"
+    },
+    "blockstate=5": {
+      "model": "the_dirty_stuff:block/tobacco_crop_blockstate_4"
+    },
+    "blockstate=6": {
+      "model": "the_dirty_stuff:block/tobacco_crop_blockstate_5"
+    },
+    "blockstate=7": {
+      "model": "the_dirty_stuff:block/tobacco_crop_blockstate_6"
+    }
+  }
+}

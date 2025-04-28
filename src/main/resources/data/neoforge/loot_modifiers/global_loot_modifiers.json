@@ -1,0 +1,10 @@
+{
+  "entries": [
+    "the_dirty_stuff:plains_village",
+    "the_dirty_stuff:savanna_village",
+    "the_dirty_stuff:buried_treasure",
+    "the_dirty_stuff:jungle_temple",
+    "the_dirty_stuff:desert_village"
+  ],
+  "replace": false
+}

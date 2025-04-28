@@ -1,0 +1,64 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "anvil",
+        "1": "empty",
+        "2": "glass",
+        "3": "glass_down",
+        "4": "glass_top",
+        "5": "rock",
+        "missing": "empty"
+      },
+      "name": "default"
+    },
+    "opium": {
+      "map": {
+        "0": "anvil",
+        "1": "opium",
+        "2": "glass",
+        "3": "glass_down",
+        "4": "glass_top",
+        "5": "rock",
+        "missing": "empty"
+      },
+      "name": "opium"
+    },
+    "ephedra": {
+      "map": {
+        "0": "anvil",
+        "1": "ephedra",
+        "2": "glass",
+        "3": "glass_down",
+        "4": "glass_top",
+        "5": "rock",
+        "missing": "empty"
+      },
+      "name": "ephedra"
+    },
+    "amphetamine": {
+      "map": {
+        "0": "anvil",
+        "1": "color_white",
+        "2": "glass",
+        "3": "glass_down",
+        "4": "glass_top",
+        "5": "rock",
+        "missing": "empty"
+      },
+      "name": "amphetamine"
+    },
+    "methamphetamine": {
+      "map": {
+        "0": "anvil",
+        "1": "color_light_blue",
+        "2": "glass",
+        "3": "glass_down",
+        "4": "glass_top",
+        "5": "rock",
+        "missing": "empty"
+      },
+      "name": "methamphetamine"
+    }
+  }
+}

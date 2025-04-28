@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_dirty_stuff:amphetamine"
+    },
+    {
+      "item": "the_dirty_stuff:amphetamine"
+    },
+    {
+      "item": "the_dirty_stuff:amphetamine"
+    },
+    {
+      "item": "the_dirty_stuff:amphetamine"
+    },
+    {
+      "item": "the_dirty_stuff:amphetamine"
+    },
+    {
+      "item": "the_dirty_stuff:amphetamine"
+    },
+    {
+      "item": "the_dirty_stuff:amphetamine"
+    },
+    {
+      "item": "the_dirty_stuff:amphetamine"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "the_dirty_stuff:amphetamine_package",
+    "count": 1
+  }
+}

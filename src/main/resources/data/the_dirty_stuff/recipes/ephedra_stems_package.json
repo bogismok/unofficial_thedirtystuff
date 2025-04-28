@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_dirty_stuff:ephedra_stems"
+    },
+    {
+      "item": "the_dirty_stuff:ephedra_stems"
+    },
+    {
+      "item": "the_dirty_stuff:ephedra_stems"
+    },
+    {
+      "item": "the_dirty_stuff:ephedra_stems"
+    },
+    {
+      "item": "the_dirty_stuff:ephedra_stems"
+    },
+    {
+      "item": "the_dirty_stuff:ephedra_stems"
+    },
+    {
+      "item": "the_dirty_stuff:ephedra_stems"
+    },
+    {
+      "item": "the_dirty_stuff:ephedra_stems"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "the_dirty_stuff:ephedra_stems_package",
+    "count": 1
+  }
+}

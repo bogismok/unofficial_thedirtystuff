@@ -1,0 +1,209 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "MortarAndPestle",
+    "blockstateList": [
+      {
+        "texture": "mortar_and_pestle_ephedra_stems",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "mortar_and_pestle:default",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 3.0,
+            "my": 0.0,
+            "mz": 3.0,
+            "Mx": 13.0,
+            "My": 4.0,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 4.0,
+            "mz": 9.0,
+            "Mx": 11.0,
+            "My": 7.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.0,
+            "my": 3.5,
+            "mz": 5.0,
+            "Mx": 11.0,
+            "My": 4.0,
+            "Mz": 9.0,
+            "subtract": true
+          },
+          {
+            "mx": 5.0,
+            "my": 3.5,
+            "mz": 9.0,
+            "Mx": 9.0,
+            "My": 4.0,
+            "Mz": 11.0,
+            "subtract": true
+          }
+        ]
+      },
+      {
+        "texture": "mortar_and_pestle_ephedra",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "mortar_and_pestle:ephedra",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 3.0,
+            "my": 0.0,
+            "mz": 3.0,
+            "Mx": 13.0,
+            "My": 4.0,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 4.0,
+            "mz": 9.0,
+            "Mx": 11.0,
+            "My": 7.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.0,
+            "my": 3.5,
+            "mz": 5.0,
+            "Mx": 11.0,
+            "My": 4.0,
+            "Mz": 9.0,
+            "subtract": true
+          },
+          {
+            "mx": 5.0,
+            "my": 3.5,
+            "mz": 9.0,
+            "Mx": 9.0,
+            "My": 4.0,
+            "Mz": 11.0,
+            "subtract": true
+          }
+        ]
+      },
+      {
+        "texture": "mortar_and_pestle_opium_head",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "mortar_and_pestle:opium_head",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 3.0,
+            "my": 0.0,
+            "mz": 3.0,
+            "Mx": 13.0,
+            "My": 4.0,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 4.0,
+            "mz": 9.0,
+            "Mx": 11.0,
+            "My": 7.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.0,
+            "my": 3.5,
+            "mz": 5.0,
+            "Mx": 11.0,
+            "My": 4.0,
+            "Mz": 9.0,
+            "subtract": true
+          },
+          {
+            "mx": 5.0,
+            "my": 3.5,
+            "mz": 9.0,
+            "Mx": 9.0,
+            "My": 4.0,
+            "Mz": 11.0,
+            "subtract": true
+          }
+        ]
+      },
+      {
+        "texture": "mortar_and_pestle_opium",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "mortar_and_pestle:opium",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 3.0,
+            "my": 0.0,
+            "mz": 3.0,
+            "Mx": 13.0,
+            "My": 4.0,
+            "Mz": 13.0,
+            "subtract": false
+          },
+          {
+            "mx": 9.0,
+            "my": 4.0,
+            "mz": 9.0,
+            "Mx": 11.0,
+            "My": 7.0,
+            "Mz": 11.0,
+            "subtract": false
+          },
+          {
+            "mx": 5.0,
+            "my": 3.5,
+            "mz": 5.0,
+            "Mx": 11.0,
+            "My": 4.0,
+            "Mz": 9.0,
+            "subtract": true
+          },
+          {
+            "mx": 5.0,
+            "my": 3.5,
+            "mz": 9.0,
+            "Mx": 9.0,
+            "My": 4.0,
+            "Mz": 11.0,
+            "subtract": true
+          }
+        ]
+      }
+    ]
+  }
+}

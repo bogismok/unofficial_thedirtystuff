@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_dirty_stuff:cannabis_bud"
+    },
+    {
+      "item": "the_dirty_stuff:cannabis_bud"
+    },
+    {
+      "item": "the_dirty_stuff:cannabis_bud"
+    },
+    {
+      "item": "the_dirty_stuff:cannabis_bud"
+    },
+    {
+      "item": "the_dirty_stuff:cannabis_bud"
+    },
+    {
+      "item": "the_dirty_stuff:cannabis_bud"
+    },
+    {
+      "item": "the_dirty_stuff:cannabis_bud"
+    },
+    {
+      "item": "the_dirty_stuff:cannabis_bud"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "the_dirty_stuff:cannabis_buds_package",
+    "count": 1
+  }
+}

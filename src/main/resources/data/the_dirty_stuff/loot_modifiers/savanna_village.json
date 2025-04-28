@@ -1,0 +1,10 @@
+{
+  "type": "the_dirty_stuff:the_dirty_stuff_loot_modifier",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "chests/village/village_savanna_house"
+    }
+  ],
+  "lootTable": "the_dirty_stuff:chests/cannabis_seeds_spawn"
+}

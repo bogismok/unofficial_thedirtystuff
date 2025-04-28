@@ -1,0 +1,36 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "anvil",
+        "1": "ephedra_stems",
+        "2": "rock"
+      },
+      "name": "default"
+    },
+    "ephedra": {
+      "map": {
+        "0": "anvil",
+        "1": "ephedra",
+        "2": "rock"
+      },
+      "name": "ephedra"
+    },
+    "opium": {
+      "map": {
+        "0": "anvil",
+        "1": "opium",
+        "2": "rock"
+      },
+      "name": "opium"
+    },
+    "opium_head": {
+      "map": {
+        "0": "anvil",
+        "1": "opium_head",
+        "2": "rock"
+      },
+      "name": "opium_head"
+    }
+  }
+}

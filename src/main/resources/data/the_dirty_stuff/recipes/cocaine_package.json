@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_dirty_stuff:cocaine"
+    },
+    {
+      "item": "the_dirty_stuff:cocaine"
+    },
+    {
+      "item": "the_dirty_stuff:cocaine"
+    },
+    {
+      "item": "the_dirty_stuff:cocaine"
+    },
+    {
+      "item": "the_dirty_stuff:cocaine"
+    },
+    {
+      "item": "the_dirty_stuff:cocaine"
+    },
+    {
+      "item": "the_dirty_stuff:cocaine"
+    },
+    {
+      "item": "the_dirty_stuff:cocaine"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "the_dirty_stuff:cocaine_package",
+    "count": 1
+  }
+}

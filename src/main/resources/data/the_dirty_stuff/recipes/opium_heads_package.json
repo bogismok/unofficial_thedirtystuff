@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_dirty_stuff:opium_head"
+    },
+    {
+      "item": "the_dirty_stuff:opium_head"
+    },
+    {
+      "item": "the_dirty_stuff:opium_head"
+    },
+    {
+      "item": "the_dirty_stuff:opium_head"
+    },
+    {
+      "item": "the_dirty_stuff:opium_head"
+    },
+    {
+      "item": "the_dirty_stuff:opium_head"
+    },
+    {
+      "item": "the_dirty_stuff:opium_head"
+    },
+    {
+      "item": "the_dirty_stuff:opium_head"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "the_dirty_stuff:opium_heads_package",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_dirty_stuff:dried_tobacco_leafs_package"
+    }
+  ],
+  "result": {
+    "item": "the_dirty_stuff:dried_tobacco_leaf",
+    "count": 8
+  }
+}

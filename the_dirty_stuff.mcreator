@@ -1,0 +1,3081 @@
+{
+  "mod_elements": [
+    {
+      "name": "TobaccoSeeds",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_seeds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/block/TobaccoSeedsBlock.java",
+          "src/main/java/net/mcreator/thedirtystuff/block/entity/TobaccoSeedsBlockEntity.java",
+          "src/main/resources/assets/the_dirty_stuff/blockstates/tobacco_seeds.json",
+          "src/main/resources/assets/the_dirty_stuff/models/item/tobacco_seeds.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/tobacco_seeds.json"
+        ]
+      },
+      "path": "~/Crops/Tobacco"
+    },
+    {
+      "name": "CannabisSeeds",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/cannabis_seeds.json",
+          "src/main/resources/assets/the_dirty_stuff/blockstates/cannabis_seeds.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cannabis_seeds.json",
+          "src/main/java/net/mcreator/thedirtystuff/block/CannabisSeedsBlock.java",
+          "src/main/java/net/mcreator/thedirtystuff/block/entity/CannabisSeedsBlockEntity.java"
+        ]
+      },
+      "path": "~/Crops/Cannabis"
+    },
+    {
+      "name": "CocaineSeeds",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/blockstates/cocaine_seeds.json",
+          "src/main/resources/assets/the_dirty_stuff/models/item/cocaine_seeds.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cocaine_seeds.json",
+          "src/main/java/net/mcreator/thedirtystuff/block/entity/CocaineSeedsBlockEntity.java",
+          "src/main/java/net/mcreator/thedirtystuff/block/CocaineSeedsBlock.java"
+        ]
+      },
+      "path": "~/Crops/Cocaine"
+    },
+    {
+      "name": "OpiumSeeds",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_seeds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/block/OpiumSeedsBlock.java",
+          "src/main/java/net/mcreator/thedirtystuff/block/entity/OpiumSeedsBlockEntity.java",
+          "src/main/resources/assets/the_dirty_stuff/blockstates/opium_seeds.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/opium_seeds.json",
+          "src/main/resources/assets/the_dirty_stuff/models/item/opium_seeds.json"
+        ]
+      },
+      "path": "~/Crops/Opium"
+    },
+    {
+      "name": "EphedraSeeds",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ephedra_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/blockstates/ephedra_seeds.json",
+          "src/main/java/net/mcreator/thedirtystuff/block/entity/EphedraSeedsBlockEntity.java",
+          "src/main/java/net/mcreator/thedirtystuff/block/EphedraSeedsBlock.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/ephedra_seeds.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/ephedra_seeds.json"
+        ]
+      },
+      "path": "~/Crops/Ephedra"
+    },
+    {
+      "name": "TobaccoLeaf",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_leaf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/tobacco_leaf.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/TobaccoLeafItem.java"
+        ]
+      },
+      "path": "~/Items/Tobacco"
+    },
+    {
+      "name": "TobaccoLeafs",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_leafs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/tobacco_leafs.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/TobaccoLeafsItem.java"
+        ]
+      },
+      "path": "~/Items/Tobacco"
+    },
+    {
+      "name": "DriedTobaccoLeaf",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_tobacco_leaf",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/DriedTobaccoLeafItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/dried_tobacco_leaf.json"
+        ]
+      },
+      "path": "~/Items/Tobacco"
+    },
+    {
+      "name": "Tobacco",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/tobacco.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/TobaccoItem.java"
+        ]
+      },
+      "path": "~/Items/Tobacco"
+    },
+    {
+      "name": "CannabisBud",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_bud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/cannabis_bud.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/CannabisBudItem.java"
+        ]
+      },
+      "path": "~/Items/Cannabis"
+    },
+    {
+      "name": "Cannabis",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/CannabisItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/cannabis.json"
+        ]
+      },
+      "path": "~/Items/Cannabis"
+    },
+    {
+      "name": "CocaineLeafs",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_leafs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/CocaineLeafsItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/cocaine_leafs.json"
+        ]
+      },
+      "path": "~/Items/Cocaine"
+    },
+    {
+      "name": "OpiumHead",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_head",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/opium_head.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/OpiumHeadItem.java"
+        ]
+      },
+      "path": "~/Items/Opium"
+    },
+    {
+      "name": "OpiumBottle",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/OpiumBottleItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/opium_bottle.json"
+        ]
+      },
+      "path": "~/Items/Opium"
+    },
+    {
+      "name": "EphedraStems",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ephedra_stems",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/ephedra_stems.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/EphedraStemsItem.java"
+        ]
+      },
+      "path": "~/Items/Ephedra"
+    },
+    {
+      "name": "EphedraBottle",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ephedra_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/EphedraBottleItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/ephedra_bottle.json"
+        ]
+      },
+      "path": "~/Items/Ephedra"
+    },
+    {
+      "name": "Cigarette",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cigarette",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/CigaretteItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/cigarette.json"
+        ]
+      },
+      "path": "~/Items/Cigarette"
+    },
+    {
+      "name": "Cigar",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cigar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/CigarItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/cigar.json"
+        ]
+      },
+      "path": "~/Items/Cigar"
+    },
+    {
+      "name": "Joint",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joint",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/JointItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/joint.json"
+        ]
+      },
+      "path": "~/Items/Joint"
+    },
+    {
+      "name": "Cocaine",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/CocaineItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/cocaine.json"
+        ]
+      },
+      "path": "~/Items/Cocaine"
+    },
+    {
+      "name": "Opium",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/opium.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/OpiumItem.java"
+        ]
+      },
+      "path": "~/Items/Opium"
+    },
+    {
+      "name": "Amphetamine",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amphetamine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/amphetamine.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/AmphetamineItem.java"
+        ]
+      },
+      "path": "~/Items/Amphetamine"
+    },
+    {
+      "name": "Methamphetamine",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methamphetamine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/methamphetamine.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/MethamphetamineItem.java"
+        ]
+      },
+      "path": "~/Items/Methamphetamine"
+    },
+    {
+      "name": "TobaccoLeafsPackage",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_leafs_package",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/tobacco_leafs_package.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/TobaccoLeafsPackageItem.java"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "DriedTobaccoLeafsPackage",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_tobacco_leafs_package",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/DriedTobaccoLeafsPackageItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/dried_tobacco_leafs_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "TobaccoPackage",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_package",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/TobaccoPackageItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/tobacco_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "CannabisBudsPackage",
+      "type": "item",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_buds_package",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/CannabisBudsPackageItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/cannabis_buds_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "CannabisPackage",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_package",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/CannabisPackageItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/cannabis_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "OpiumHeadsPackage",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_heads_package",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/OpiumHeadsPackageItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/opium_heads_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "OpiumPackage",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_package",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/opium_package.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/OpiumPackageItem.java"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "CocaineLeafsPackage",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_leafs_package",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/item/cocaine_leafs_package.json",
+          "src/main/java/net/mcreator/thedirtystuff/item/CocaineLeafsPackageItem.java"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "CocainePackage",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_package",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/CocainePackageItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/cocaine_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "EphedraStemsPackage",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ephedra_stems_package",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/EphedraStemsPackageItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/ephedra_stems_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "AmphetaminePackage",
+      "type": "item",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amphetamine_package",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/AmphetaminePackageItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/amphetamine_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "MethamphetaminePackage",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methamphetamine_package",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/item/MethamphetaminePackageItem.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/methamphetamine_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "Workstation",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workstation",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/block/workstation.json",
+          "src/main/resources/data/the_dirty_stuff/loot_tables/blocks/workstation.json",
+          "src/main/resources/assets/the_dirty_stuff/models/item/workstation.json",
+          "src/main/java/net/mcreator/thedirtystuff/block/entity/WorkstationBlockEntity.java",
+          "src/main/java/net/mcreator/thedirtystuff/block/WorkstationBlock.java",
+          "src/main/resources/assets/the_dirty_stuff/blockstates/workstation.json"
+        ]
+      },
+      "path": "~/Workstation"
+    },
+    {
+      "name": "MortarAndPestle",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_and_pestle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/block/mortar_and_pestle.json",
+          "src/main/java/net/mcreator/thedirtystuff/block/MortarAndPestleBlock.java",
+          "src/main/resources/assets/the_dirty_stuff/models/item/mortar_and_pestle.json",
+          "src/main/java/net/mcreator/thedirtystuff/block/entity/MortarAndPestleBlockEntity.java",
+          "src/main/resources/data/the_dirty_stuff/loot_tables/blocks/mortar_and_pestle.json",
+          "src/main/resources/assets/the_dirty_stuff/blockstates/mortar_and_pestle.json"
+        ]
+      },
+      "path": "~/Mortar And Pestle"
+    },
+    {
+      "name": "BoilingFlask",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boiling_flask",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_tables/blocks/boiling_flask.json",
+          "src/main/java/net/mcreator/thedirtystuff/block/entity/BoilingFlaskBlockEntity.java",
+          "src/main/resources/assets/the_dirty_stuff/models/block/boiling_flask.json",
+          "src/main/resources/assets/the_dirty_stuff/blockstates/boiling_flask.json",
+          "src/main/resources/assets/the_dirty_stuff/models/item/boiling_flask.json",
+          "src/main/java/net/mcreator/thedirtystuff/block/BoilingFlaskBlock.java"
+        ]
+      },
+      "path": "~/Boiling Flask"
+    },
+    {
+      "name": "TobaccoCrop",
+      "type": "blockstates",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/block/tobacco_crop_blockstate_1.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/tobacco_crop_blockstate_4.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/tobacco_crop_blockstate_0.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/tobacco_crop_blockstate_3.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/tobacco_crop_blockstate_2.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/tobacco_crop_blockstate_5.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/tobacco_crop_blockstate_6.json"
+        ]
+      },
+      "path": "~/Crops/Tobacco"
+    },
+    {
+      "name": "TobaccoSeedsLootTable",
+      "type": "loottable",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tobacco_seeds_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_tables/blocks/tobacco_seeds.json"
+        ]
+      },
+      "path": "~/Crops/Tobacco"
+    },
+    {
+      "name": "WorkstationGUI",
+      "type": "gui",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workstation_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/world/inventory/WorkstationGUIMenu.java",
+          "src/main/java/net/mcreator/thedirtystuff/client/gui/WorkstationGUIScreen.java"
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "WorkstationOnTickUpdate",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workstation_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/WorkstationOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation"
+    },
+    {
+      "name": "ProgressArrowDisplay1",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay2",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay3",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay4",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay5",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay6",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay7",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay8",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay9",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay10",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay11",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_11",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay12",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_12",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay13",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_13",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay13Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay14",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_14",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay14Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay15",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_15",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay15Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay16",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_16",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay16Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay17",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_17",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay17Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay18",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_18",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay18Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay19",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_19",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay19Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay20",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_20",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay20Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay21",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_21",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay21Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "ProgressArrowDisplay22",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "progress_arrow_display_22",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/ProgressArrowDisplay22Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "TobaccoPackageRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/tobacco_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "CigaretteRightclicked",
+      "type": "procedure",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cigarette_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/CigaretteRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Cigarette"
+    },
+    {
+      "name": "CigarRightclicked",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cigar_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/CigarRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Cigar"
+    },
+    {
+      "name": "CigaretteRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cigarette_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/cigarette.json"
+        ]
+      },
+      "path": "~/Items/Cigarette"
+    },
+    {
+      "name": "CigarRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cigar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/cigar.json"
+        ]
+      },
+      "path": "~/Items/Cigar"
+    },
+    {
+      "name": "TheDirtyStuffTab",
+      "type": "tab",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_dirty_stuff_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "TobaccoLeafsPackageRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_leafs_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/tobacco_leafs_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "DriedTobaccoLeafsPackageRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_tobacco_leafs_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/dried_tobacco_leafs_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "TheDirtyStuffTrades",
+      "type": "villagertrade",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_dirty_stuff_trades",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WorkstationRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workstation_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/workstation.json"
+        ]
+      },
+      "path": "~/Workstation"
+    },
+    {
+      "name": "CropBlockValidPlacementCondition",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_block_valid_placement_condition",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/CropBlockValidPlacementConditionProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CropCanBoneMealBeUsedOnThisBlock",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_can_bone_meal_be_used_on_this_block",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/CropCanBoneMealBeUsedOnThisBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CropOnBoneMealSuccess",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_on_bone_meal_success",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/CropOnBoneMealSuccessProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CropOnTickUpdate",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crop_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/CropOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Crops"
+    },
+    {
+      "name": "CocaineCrop",
+      "type": "blockstates",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/block/cocaine_crop_blockstate_0.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cocaine_crop_blockstate_5.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cocaine_crop_blockstate_2.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cocaine_crop_blockstate_3.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cocaine_crop_blockstate_6.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cocaine_crop_blockstate_1.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cocaine_crop_blockstate_4.json"
+        ]
+      },
+      "path": "~/Crops/Cocaine"
+    },
+    {
+      "name": "CocaineSeedsLootTable",
+      "type": "loottable",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cocaine_seeds_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_tables/blocks/cocaine_seeds.json"
+        ]
+      },
+      "path": "~/Crops/Cocaine"
+    },
+    {
+      "name": "EphedraCrop",
+      "type": "blockstates",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ephedra_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/block/ephedra_crop_blockstate_5.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/ephedra_crop_blockstate_0.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/ephedra_crop_blockstate_4.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/ephedra_crop_blockstate_1.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/ephedra_crop_blockstate_3.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/ephedra_crop_blockstate_6.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/ephedra_crop_blockstate_2.json"
+        ]
+      },
+      "path": "~/Crops/Ephedra"
+    },
+    {
+      "name": "EphedraSeedsLootTable",
+      "type": "loottable",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "ephedra_seeds_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_tables/blocks/ephedra_seeds.json"
+        ]
+      },
+      "path": "~/Crops/Ephedra"
+    },
+    {
+      "name": "OpiumCrop",
+      "type": "blockstates",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/block/opium_crop_blockstate_4.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/opium_crop_blockstate_6.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/opium_crop_blockstate_1.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/opium_crop_blockstate_0.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/opium_crop_blockstate_2.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/opium_crop_blockstate_5.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/opium_crop_blockstate_3.json"
+        ]
+      },
+      "path": "~/Crops/Opium"
+    },
+    {
+      "name": "OpiumSeedsLootTable",
+      "type": "loottable",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "opium_seeds_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_tables/blocks/opium_seeds.json"
+        ]
+      },
+      "path": "~/Crops/Opium"
+    },
+    {
+      "name": "MortarAndPestleTypes",
+      "type": "blockstates",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_and_pestle_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/block/mortar_and_pestle_types_blockstate_0.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/mortar_and_pestle_types_blockstate_1.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/mortar_and_pestle_types_blockstate_2.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/mortar_and_pestle_types_blockstate_3.json"
+        ]
+      },
+      "path": "~/Mortar And Pestle"
+    },
+    {
+      "name": "MortarAndPestleOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_and_pestle_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/MortarAndPestleOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mortar And Pestle"
+    },
+    {
+      "name": "TobaccoLeafsRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_leafs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/tobacco_leafs.json"
+        ]
+      },
+      "path": "~/Items/Tobacco"
+    },
+    {
+      "name": "TobaccoLeafRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_leaf_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/tobacco_leaf.json"
+        ]
+      },
+      "path": "~/Items/Tobacco"
+    },
+    {
+      "name": "TobaccoLeafPackageRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_leaf_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/tobacco_leaf_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "TobaccoRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/tobacco.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "DriedTobaccoLeafPackageRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dried_tobacco_leaf_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/dried_tobacco_leaf_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "BoilingFlaskOnRandomClientDisplayTick",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boiling_flask_on_random_client_display_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/BoilingFlaskOnRandomClientDisplayTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Boiling Flask"
+    },
+    {
+      "name": "BoilingFlaskTypes",
+      "type": "blockstates",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boiling_flask_types",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/block/boiling_flask_types_blockstate_2.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/boiling_flask_types_blockstate_1.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/boiling_flask_types_blockstate_0.json"
+        ]
+      },
+      "path": "~/Boiling Flask"
+    },
+    {
+      "name": "BoilingFlaskOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boiling_flask_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/BoilingFlaskOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Boiling Flask"
+    },
+    {
+      "name": "BoilingFlaskOnTickUpdate",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boiling_flask_on_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/BoilingFlaskOnTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Boiling Flask"
+    },
+    {
+      "name": "WorkstationOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workstation_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/WorkstationOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation/GUI"
+    },
+    {
+      "name": "WorkstationNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "workstation_neighbour_block_changes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/WorkstationNeighbourBlockChangesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Workstation"
+    },
+    {
+      "name": "CocaineRightclicked",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/CocaineRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Cocaine"
+    },
+    {
+      "name": "MethamphetamineRightclicked",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methamphetamine_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/MethamphetamineRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Methamphetamine"
+    },
+    {
+      "name": "AmphetamineRightclicked",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amphetamine_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/AmphetamineRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Amphetamine"
+    },
+    {
+      "name": "JointRightclicked",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joint_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/JointRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Joint"
+    },
+    {
+      "name": "OpiumRightclicked",
+      "type": "procedure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/OpiumRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Items/Opium"
+    },
+    {
+      "name": "CannabisCrop",
+      "type": "blockstates",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_crop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_dirty_stuff/models/block/cannabis_crop_blockstate_5.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cannabis_crop_blockstate_2.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cannabis_crop_blockstate_1.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cannabis_crop_blockstate_3.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cannabis_crop_blockstate_6.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cannabis_crop_blockstate_0.json",
+          "src/main/resources/assets/the_dirty_stuff/models/block/cannabis_crop_blockstate_4.json"
+        ]
+      },
+      "path": "~/Crops/Cannabis"
+    },
+    {
+      "name": "CannabisSeedsLootTable",
+      "type": "loottable",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "cannabis_seeds_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_tables/blocks/cannabis_seeds.json"
+        ]
+      },
+      "path": "~/Crops/Cannabis"
+    },
+    {
+      "name": "MortarAndPestleRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mortar_and_pestle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/mortar_and_pestle.json"
+        ]
+      },
+      "path": "~/Mortar And Pestle"
+    },
+    {
+      "name": "BoilingFlaskRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boiling_flask_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/boiling_flask.json"
+        ]
+      },
+      "path": "~/Boiling Flask"
+    },
+    {
+      "name": "JointRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "joint_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/joint.json"
+        ]
+      },
+      "path": "~/Items/Joint"
+    },
+    {
+      "name": "CannabisBudsPackageRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_buds_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/cannabis_buds_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "CocaineLeafsPackageRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_leafs_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/cocaine_leafs_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "OpiumHeadsPackageRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_heads_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/opium_heads_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "EphedraStemsPackageRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ephedra_stems_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/ephedra_stems_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "CannabisPackageRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/cannabis_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "OpiumPackageRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/opium_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "CocainePackageRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/cocaine_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "AmphetaminePackageRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amphetamine_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/amphetamine_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "MethamphetaminePackageRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methamphetamine_package_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/methamphetamine_package.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "MilkDetect",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "milk_detect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/thedirtystuff/procedures/MilkDetectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TobaccoSeedsSpawn",
+      "type": "loottable",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tobacco_seeds_spawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_tables/chests/tobacco_seeds_spawn.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "EphedraSeedsSpawn",
+      "type": "loottable",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ephedra_seeds_spawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_tables/chests/ephedra_seeds_spawn.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "OpiumSeedsSpawn",
+      "type": "loottable",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_seeds_spawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_tables/chests/opium_seeds_spawn.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "CocaineSeedsSpawn",
+      "type": "loottable",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_seeds_spawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_tables/chests/cocaine_seeds_spawn.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "CannabisSeedsSpawn",
+      "type": "loottable",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_seeds_spawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_tables/chests/cannabis_seeds_spawn.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "PlainsVillage",
+      "type": "lootmodifier",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plains_village",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_modifiers/plains_village.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "SavannaVillage",
+      "type": "lootmodifier",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "savanna_village",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_modifiers/savanna_village.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "BuriedTreasure",
+      "type": "lootmodifier",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "buried_treasure",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_modifiers/buried_treasure.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "JungleTemple",
+      "type": "lootmodifier",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jungle_temple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_modifiers/jungle_temple.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "DesertVillage",
+      "type": "lootmodifier",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_village",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/loot_modifiers/desert_village.json"
+        ]
+      },
+      "path": "~/Loot"
+    },
+    {
+      "name": "CannabisBudRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_bud_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/cannabis_bud.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "CocaineLeafsRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_leafs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/cocaine_leafs.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "OpiumHeadRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_head_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/opium_head.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "EphedraStemsRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ephedra_stems_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/ephedra_stems.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "CannabisRecipe",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cannabis_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/cannabis.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "OpiumRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opium_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/opium.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "CocaineRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocaine_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/cocaine.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "AmphetamineRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amphetamine_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/amphetamine.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    },
+    {
+      "name": "MethamphetamineRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "methamphetamine_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_dirty_stuff/recipes/methamphetamine.json"
+        ]
+      },
+      "path": "~/Items/Packages"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "cigarette",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "cigar",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "joint",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "cocaine",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "opium",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "amphetamine",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    },
+    {
+      "name": "methamphetamine",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "pl_pl": {
+      "block.the_dirty_stuff.tobacco_seeds": "Nasiona Tytoniu",
+      "item.the_dirty_stuff.cigarette": "Papieros",
+      "itemGroup.tab_the_dirty_stuff_tab": "The Dirty Stuff",
+      "item.the_dirty_stuff.tobacco_leaf": "Liść Tytoniu",
+      "item.the_dirty_stuff.opium_heads_package": "Paczka Główek Opium",
+      "item.the_dirty_stuff.cocaine_package": "Paczka Kokainy",
+      "item.the_dirty_stuff.joint": "Skręt",
+      "block.the_dirty_stuff.cannabis_seeds": "Nasiona Konopi",
+      "gui.the_dirty_stuff.workstation_gui.label_workstation": "Stacja Robocza",
+      "item.the_dirty_stuff.opium": "Opium",
+      "item.the_dirty_stuff.methamphetamine_package": "Paczka Metamfetaminy",
+      "item.the_dirty_stuff.tobacco": "Tytoń",
+      "item.the_dirty_stuff.tobacco_leafs": "Liście Tytoniu",
+      "item.the_dirty_stuff.cocaine_leafs": "Liście Kokainy",
+      "item_group.the_dirty_stuff.the_dirty_stuff_tab": "The Dirty Stuff",
+      "item.the_dirty_stuff.opium_head": "Główka Opium",
+      "item.the_dirty_stuff.opium_package": "Paczka Opium",
+      "block.the_dirty_stuff.workstation": "Stacja Robocza",
+      "item.the_dirty_stuff.cocaine": "Kokaina",
+      "block.the_dirty_stuff.boiling_flask": "Kolba",
+      "item.the_dirty_stuff.dried_tobacco_leafs_package": "Paczka Suszonych Liści Tytoniu",
+      "item.the_dirty_stuff.cannabis_package": "Paczka konopi",
+      "item.the_dirty_stuff.amphetamine_package": "Paczka Amfetaminy",
+      "item.the_dirty_stuff.dried_tobacco_leaf": "Suczony Liść Tytoniu",
+      "item.the_dirty_stuff.cannabis": "Konopia",
+      "item.the_dirty_stuff.cocaine_leafs_package": "Paczka Liści Kokainy",
+      "block.the_dirty_stuff.mortar_and_pestle": "Moździerz",
+      "item.the_dirty_stuff.cigar": "Cygaro",
+      "item.the_dirty_stuff.ephedra_bottle": "Butelka Efedryny",
+      "item.the_dirty_stuff.methamphetamine": "Metamfetamina",
+      "item.the_dirty_stuff.cannabis_bud": "Pączek konopi",
+      "item.the_dirty_stuff.opium_bottle": "Butelka Opium",
+      "item.the_dirty_stuff.cannabis_buds_package": "Paczka Pączków konopi",
+      "item.the_dirty_stuff.tobacco_package": "Paczka Tytońu",
+      "item.the_dirty_stuff.ephedra_stems": "Łodygi Efedryny",
+      "item.the_dirty_stuff.ephedra_stems_package": "Paczka Łodyg Efedryny",
+      "item.the_dirty_stuff.amphetamine": "Amfetamina",
+      "block.the_dirty_stuff.opium_seeds": "Nasiona Opium",
+      "item.the_dirty_stuff.tobacco_leafs_package": "Paczka Liści Tytoniu",
+      "block.the_dirty_stuff.cocaine_seeds": "Nasiona Kokainy",
+      "block.the_dirty_stuff.ephedra_seeds": "Nasiona Efedryny"
+    },
+    "en_us": {
+      "block.the_dirty_stuff.tobacco_seeds": "Tobacco Seeds",
+      "item.the_dirty_stuff.cigarette": "Cigarette",
+      "itemGroup.tab_the_dirty_stuff_tab": "The Dirty Stuff",
+      "item.the_dirty_stuff.tobacco_leaf": "Tobacco Leaf",
+      "item.the_dirty_stuff.opium_heads_package": "Opium Heads Package",
+      "item.the_dirty_stuff.cocaine_package": "Cocaine Package",
+      "item.the_dirty_stuff.joint": "Joint",
+      "block.the_dirty_stuff.cannabis_seeds": "Cannabis Seeds",
+      "gui.the_dirty_stuff.workstation_gui.label_workstation": "Workstation",
+      "item.the_dirty_stuff.opium": "Opium",
+      "item.the_dirty_stuff.methamphetamine_package": "Methamphetamine Package",
+      "item.the_dirty_stuff.tobacco": "Tobacco",
+      "item.the_dirty_stuff.tobacco_leafs": "Tobacco Leafs",
+      "item.the_dirty_stuff.cocaine_leafs": "Cocaine Leafs",
+      "item_group.the_dirty_stuff.the_dirty_stuff_tab": "The Dirty Stuff",
+      "item.the_dirty_stuff.opium_head": "Opium Head",
+      "item.the_dirty_stuff.opium_package": "Opium Package",
+      "block.the_dirty_stuff.workstation": "Workstation",
+      "item.the_dirty_stuff.cocaine": "Cocaine",
+      "block.the_dirty_stuff.boiling_flask": "Boiling Flask",
+      "item.the_dirty_stuff.dried_tobacco_leafs_package": "Dried Tobacco Leafs Package",
+      "item.the_dirty_stuff.cannabis_package": "Cannabis Package",
+      "item.the_dirty_stuff.amphetamine_package": "Amphetamine Package",
+      "item.the_dirty_stuff.dried_tobacco_leaf": "Dried Tobacco Leaf",
+      "item.the_dirty_stuff.cannabis": "Cannabis",
+      "item.the_dirty_stuff.cocaine_leafs_package": "Cocaine Leafs Package",
+      "block.the_dirty_stuff.mortar_and_pestle": "Mortar and Pestle",
+      "item.the_dirty_stuff.cigar": "Cigar",
+      "item.the_dirty_stuff.ephedra_bottle": "Ephedra Bottle",
+      "item.the_dirty_stuff.methamphetamine": "Methamphetamine",
+      "item.the_dirty_stuff.cannabis_bud": "Cannabis Bud",
+      "item.the_dirty_stuff.opium_bottle": "Opium Bottle",
+      "item.the_dirty_stuff.cannabis_buds_package": "Cannabis Buds Package",
+      "item.the_dirty_stuff.tobacco_package": "Tobacco Package",
+      "item.the_dirty_stuff.ephedra_stems": "Ephedra Stems",
+      "item.the_dirty_stuff.ephedra_stems_package": "Ephedra Stems Package",
+      "item.the_dirty_stuff.amphetamine": "Amphetamine",
+      "block.the_dirty_stuff.opium_seeds": "Opium Seeds",
+      "item.the_dirty_stuff.tobacco_leafs_package": "Tobacco Leafs Package",
+      "block.the_dirty_stuff.cocaine_seeds": "Cocaine Seeds",
+      "block.the_dirty_stuff.ephedra_seeds": "Ephedra Seeds"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Workstation",
+        "children": [
+          {
+            "name": "GUI",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Crops",
+        "children": [
+          {
+            "name": "Tobacco",
+            "children": []
+          },
+          {
+            "name": "Cocaine",
+            "children": []
+          },
+          {
+            "name": "Opium",
+            "children": []
+          },
+          {
+            "name": "Ephedra",
+            "children": []
+          },
+          {
+            "name": "Cannabis",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Items",
+        "children": [
+          {
+            "name": "Tobacco",
+            "children": []
+          },
+          {
+            "name": "Cigarette",
+            "children": []
+          },
+          {
+            "name": "Cigar",
+            "children": []
+          },
+          {
+            "name": "Packages",
+            "children": []
+          },
+          {
+            "name": "Cocaine",
+            "children": []
+          },
+          {
+            "name": "Opium",
+            "children": []
+          },
+          {
+            "name": "Ephedra",
+            "children": []
+          },
+          {
+            "name": "Joint",
+            "children": []
+          },
+          {
+            "name": "Amphetamine",
+            "children": []
+          },
+          {
+            "name": "Methamphetamine",
+            "children": []
+          },
+          {
+            "name": "Cannabis",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Mortar And Pestle",
+        "children": []
+      },
+      {
+        "name": "Boiling Flask",
+        "children": []
+      },
+      {
+        "name": "Loot",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "the_dirty_stuff",
+    "modName": "The Dirty Stuff",
+    "version": "3.0",
+    "description": "This mod adds various crops, and some good stuff :)",
+    "author": "Bogismok",
+    "websiteURL": "https://www.curseforge.com/minecraft/mc-mods/thedirtystuff \\nhttps://modrinth.com/project/thedirtystuff \\nhttps://discord.gg/bPSeyZT7xS",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Shoutout to guys from discord server for awesome ideas and motivation! \\nMod was created using MCreator - https://mcreator.net",
+    "modElementsPackage": "net.mcreator.thedirtystuff"
+  },
+  "mcreatorVersion": 202400118518
+}

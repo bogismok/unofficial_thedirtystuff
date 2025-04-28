@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="the_dirty_stuff"
+version="3.0"
+displayName="The Dirty Stuff"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/thedirtystuff \nhttps://modrinth.com/project/thedirtystuff \nhttps://discord.gg/bPSeyZT7xS"
+logoFile="logo.png"
+credits="Shoutout to guys from discord server for awesome ideas and motivation! \nMod was created using MCreator - https://mcreator.net"
+authors="Bogismok"
+description="This mod adds various crops, and some good stuff :)"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.the_dirty_stuff]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+

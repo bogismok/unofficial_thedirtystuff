@@ -1,0 +1,361 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_workstation",
+          "text": {
+            "fixedValue": "Workstation"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 185,
+          "y": 48
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 160,
+          "y": 75
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 223,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_0.png",
+          "use1Xscale": false,
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay1"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay2"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay3"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay4"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay5"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay6"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_7.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay7"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_8.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay8"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_9.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay9"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_10.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay10"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_11.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay11"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_12.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay12"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_13.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay13"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_14.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay14"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_15.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay15"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_16.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay16"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_17.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay17"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_18.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay18"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_19.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay19"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_20.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay20"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_21.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay21"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow_22.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "ProgressArrowDisplay22"
+          },
+          "x": 189,
+          "y": 76
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 250,
+          "y": 75
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "bottle_gui.png",
+          "use1Xscale": false,
+          "x": 251,
+          "y": 76
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 13,
+      "oy": 23,
+      "snapOnGrid": false
+    }
+  }
+}

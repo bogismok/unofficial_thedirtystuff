@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_dirty_stuff:methamphetamine_package"
+    }
+  ],
+  "result": {
+    "item": "the_dirty_stuff:methamphetamine",
+    "count": 8
+  }
+}

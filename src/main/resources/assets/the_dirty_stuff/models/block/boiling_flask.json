@@ -1,0 +1,15 @@
+{
+  "parent": "the_dirty_stuff:custom/boiling_flask",
+  "textures": {
+    "all": "the_dirty_stuff:block/boiling_flask",
+    "particle": "the_dirty_stuff:block/color_white",
+    "0": "the_dirty_stuff:block/anvil",
+    "1": "the_dirty_stuff:block/empty",
+    "2": "the_dirty_stuff:block/glass",
+    "3": "the_dirty_stuff:block/glass_down",
+    "4": "the_dirty_stuff:block/glass_top",
+    "5": "the_dirty_stuff:block/rock",
+    "missing": "the_dirty_stuff:block/empty"
+  },
+  "render_type": "translucent"
+}

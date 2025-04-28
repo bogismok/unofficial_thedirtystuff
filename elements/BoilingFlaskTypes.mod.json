@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "blockstates",
+  "definition": {
+    "block": "BoilingFlask",
+    "blockstateList": [
+      {
+        "texture": "boiling_flask",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "boiling_flask:ephedra",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "boiling_flask",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "boiling_flask:amphetamine",
+        "luminance": 0,
+        "boundingBoxes": []
+      },
+      {
+        "texture": "boiling_flask",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "boiling_flask:methamphetamine",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "the_dirty_stuff:block/workstation"
+    },
+    "facing=east": {
+      "model": "the_dirty_stuff:block/workstation",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_dirty_stuff:block/workstation",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_dirty_stuff:block/workstation",
+      "y": 270
+    }
+  }
+}

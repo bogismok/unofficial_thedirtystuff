@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "the_dirty_stuff:item/ephedra_seeds"
+  },
+  "render_type": "translucent"
+}
